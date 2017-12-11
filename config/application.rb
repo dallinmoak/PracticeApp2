@@ -26,7 +26,7 @@ module PracticeApp2
       g.template_engine :erb
       g.test_framework  :test_unit, fixture: false
       g.stylesheets     false
-      g.javascripts     false
+      g.javascripts     true
     end
 
     # Don't generate system test files.
